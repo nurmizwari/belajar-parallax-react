@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  font-family: Poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  position: relative;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.content span {
+  background-color: #333;
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.content span:hover {
+  background-color: rgb(91, 91, 238);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.content2 p {
+  width: 70vw;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0.5;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.content2 p:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  background-color: #333;
+  color: aliceblue;
+}
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  background: linear-gradient(#ebf4f5, #b5c6e0);
+  box-shadow: 10px;
 }
